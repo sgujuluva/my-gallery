@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    color:blue;
+    text-align: center;
+}
+/* .gallery{
+    width:800px;
+    height:800px;
+    border:2px solid black;
+    margin:auto;
+    position:relative;
+}
+.pic1 img, .pic2 img,.pic3 img,.pic4 img{
+    width:300px;
+    height:300px;
+    border:2px solid black;
+    position: absolute;
+    padding: 10px 10px 50px 10px;
+    filter: grayscale(100);   
+    opacity: 0.5;  
+}
+.pic1 img{
+    
+    top:25rem;   
+    left:10rem;   
+    transform: rotate(35deg);          
+  }
+.pic2 img{
+   
+   top:15rem;
+   left:10rem;
+   transform: rotate(40deg);                
+}
+.pic3 img{
+    
+   top:13rem;
+   left:20rem;
+   transform: rotate(40deg);       
+}
+.pic4 img{
+    
+    left:25rem;
+    transform: rotate(-20deg);         
+}
+.pick img:hover{
+       transform: rotate(0);
+       filter: none;
+       opacity: 1; 
+       z-index:1;
+        
+}
+ */
+   
+ /* using nth child */
+
+ .photos{
+  
+    width:800px;
+    height:800px;
+    border:2px solid black;
+    margin:auto;
+    position:relative;
+ }
+ img{
+    width:300px;
+    height:300px;
+    border:2px solid black;
+    padding: 10px 10px 50px 10px;
+    filter: grayscale(100);   
+    opacity: 0.5; 
+ }
+.photos img:nth-child(2){
+    top:25rem;
+    left:10rem;
+    transform: rotate(40deg); 
+}
