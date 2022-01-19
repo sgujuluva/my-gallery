@@ -56,39 +56,77 @@ h1 {
  */
 
 /* using nth child */
+h1{}
 
-.photos {
-  /*    width:800px;
-    height:800px; */
-  /* border: 2px solid black; */
-  margin: auto;
-  position: relative;
-  display: inline;
-}
-img {
-  width: 300px;
-  height: 300px;
-  border: 2px solid black;
-  padding: 10px 10px 50px 10px;
-  filter: grayscale(100);
-  opacity: 0.5;
-}
-.photos img:nth-child(2n) {
-  top: 25rem;
-  left: 10rem;
-  transform: rotate(40deg);
-  
-}
+ .nature-photos{
+     width:800px;
+     height:800px;
+     margin:auto;
+     border: 1px solid black;
+     position:relative;
+ }
+ img{
+     position: absolute;
+     width:200px;
+     height:200px;
+    padding:10px 10px 30px 10px;
+    border: 5px solid black;
+ }
 
-.photos img:nth-child(2n + 1) {
-    top: 25rem;
-    left: 10rem;
-    transform: rotate(30deg);
-   
+ div:nth-child(n){
+    
+     transform: rotate(40deg);
+     opacity: 0.75;
+     filter: grayscale(100);
+     transition: 0.7s;
+ }
+ div:nth-child(1){
+    position: absolute;
+    top:35rem;   
+    left:10rem; 
+ }
+ div:nth-child(2){
+    position: absolute;
+    top:40rem;
+   left:15rem;
+ }
+ div:nth-child(3){
+    position: absolute;
+    top:33rem;
+   left:20rem;
+ }
+ div:nth-child(4){
+    position: absolute;
+    top:28rem;
+    left:25rem;
+ }
+ div:hover{
+transform: rotate(0deg);
+opacity: 1;
+filter: grayscale(0);
+z-index: 1;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* table */
+  tr:nth-child(2n){
+      background-color: blueviolet;
   }
-  img:nth-child(n):hover{
-    transform: rotate(0);
-    filter: none;
-    opacity: 1; 
-    z-index:1;
+  tr:nth-child(2n+1){
+      background-color: cadetblue;
   }
