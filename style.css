@@ -3,10 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-h1 {
+:root{
+  --my-color:rgba(20,240,30,0.6);
+}
+/* h1 {
   color: blue;
   text-align: center;
-}
+} */
 /* .gallery{
     width:800px;
     height:800px;
@@ -56,8 +59,17 @@ h1 {
  */
 
 /* using nth child */
-h1{}
-
+h1
+{
+  transform: rotate(-40deg);
+  color:var(--my-color);
+  font-size:3rem;
+  outline:2px solid black;
+}
+h1::first-letter{
+  font-size: 7rem;
+  font-family: monospace;
+}
  .nature-photos{
      width:800px;
      height:800px;
@@ -82,22 +94,22 @@ h1{}
  }
  div:nth-child(1){
     position: absolute;
-    top:35rem;   
+    top:20rem;   
     left:10rem; 
  }
  div:nth-child(2){
     position: absolute;
-    top:40rem;
+    top:15rem;
    left:15rem;
  }
  div:nth-child(3){
     position: absolute;
-    top:33rem;
+    top:23rem;
    left:20rem;
  }
  div:nth-child(4){
     position: absolute;
-    top:28rem;
+     top:8rem;
     left:25rem;
  }
  div:hover{
