@@ -6,11 +6,8 @@
 :root{
   --my-color:rgba(20,240,30,0.6);
 }
-/* h1 {
-  color: blue;
-  text-align: center;
-} */
-/* .gallery{
+
+.gallery{
     width:800px;
     height:800px;
     border:2px solid black;
@@ -27,7 +24,6 @@
     opacity: 0.5;  
 }
 .pic1 img{
-    
     top:25rem;   
     left:10rem;   
     transform: rotate(35deg);          
@@ -56,97 +52,5 @@
        z-index:1;
         
 }
- */
-
-/* using nth child */
-h1
-{
-  transform: rotate(-15deg);
-  color:var(--my-color);
-  font-size:1rem;
-  outline:2px solid black;
-  margin-bottom: 50px;
-  position:absolute;
-  top:0%;
-
-}
-h1::first-letter{
-  font-size: 7rem;
-  font-family: monospace;
-}
- .nature-photos{
-     width:1500px;
-     height:1500px;
-     margin:auto;
-     border: 1px solid black;
-  /*    position:relative; */
- }
-/*  div{
-width:250px;
-height:250px;
- } */
- img{
  
-     width:200px;
-     height:200px;
-    padding:10px 10px 30px 10px;
-    border: 5px solid black;
- }
 
- img:nth-child(n){
-    
-     transform: rotate(40deg);
-     opacity: 0.75;
-     filter: grayscale(100);
-     transition: 0.7s;
- }
-img:nth-child(1) {
-    position: absolute;
-       top:20%;   
-    left:35%; 
- }
-img:nth-child(2){
-    position: absolute;
-    top:30%;
-   left:40%;
- }
-img:nth-child(3){
-    position: absolute;
-    top:40%;
-   left:50%;
- }
-img:nth-child(4){
-    position: absolute;
-     top:50%;
-    left:25%;
- }
- img:hover{
-transform: rotate(0deg);
-opacity: 1;
-filter: grayscale(0);
-z-index: 1;
- }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* table */
-  tr:nth-child(2n){
-      background-color: blueviolet;
-  }
-  tr:nth-child(2n+1){
-      background-color: cadetblue;
-  }
