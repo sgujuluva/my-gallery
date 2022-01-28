@@ -15,7 +15,7 @@
 >
 > 4. Z-index
 >
-> ![z-index reference](mdn-z-index.png)
+> ![z-index reference](/home/user/app/e11/gallery-wall/img/mdn-z-index.png)
 >
 > 5. Grey scale filter effect
 >
@@ -25,7 +25,7 @@
 >
 > 7. Transform transform
 >
-*My **favorite website**to know more about these properties is:*
+*My **favorite website** to know more about these properties is:*
 [mdn resources](https://developer.mozilla.org/)
 
 [^1]: This is my first project in learning phase.
