@@ -5,6 +5,7 @@
 ![Pictures of natural posters](gallery-wall-md.png)
 
 *Here, I have used different tools in CSS. Like as follows:*
+
 1.Classes
 2.Group Selectors
 3.Pseudo class 
@@ -15,5 +16,10 @@
 - top
 - left
 7.Transform transform
+
+*My Reference & source to know more about these properties is:*
+*[mdn resources](https://developer.mozilla.org/)
+
+[^1]: This is my first project in learning phase.
 
 
