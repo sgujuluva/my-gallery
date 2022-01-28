@@ -15,7 +15,7 @@
 >
 > 4. Z-index
 >
-> ![z-index reference](/home/user/app/e11/gallery-wall/img/mdn-z-index.png)
+> ![z-index reference](mdn-z-index.png)
 >
 > 5. Grey scale filter effect
 >
