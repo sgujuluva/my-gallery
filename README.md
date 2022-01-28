@@ -6,24 +6,26 @@
 
 > Here, I have used different tools in CSS. Like as follows:
 >
-> 1.Classes
+> 1. Classes
 >
-> 2.Group Selectors
+> 2. Group Selectors
 >
-> 3.Pseudo class 
+> 3. Pseudo class 
 > - :hover
 >
-> 4.Z-index
+> 4. Z-index
 >
-> 5.Grey scale filter effect
+> ![z-index reference](mdn-z-index.png)
 >
-> 6.For positioning images
+> 5. Grey scale filter effect
+>
+> 6. For positioning images
 > - top
 > - left
 >
-> 7.Transform transform
+> 7. Transform transform
 >
-*My **Reference & source** to know more about these properties is:*
+*My **favorite website**to know more about these properties is:*
 [mdn resources](https://developer.mozilla.org/)
 
 [^1]: This is my first project in learning phase.
