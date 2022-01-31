@@ -24,7 +24,7 @@ article > div:last-child{
     position:absolute;
     left:30%;
     top:0.2%;
-    transform: rotate(10deg);
+    transform: rotate(-5deg);
 } 
 
 article > div  {
