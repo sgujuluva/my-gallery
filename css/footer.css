@@ -1,0 +1,6 @@
+.text p{
+border:1px dashed red;
+font-family: 'Quintessential', cursive;
+font-size: 2rem;
+background-color: var(--footer-color);
+}

@@ -1,2 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Quintessential&family=Roboto+Slab&family=Work+Sans:ital,wght@0,300;1,500&display=swap');
+@import url(./var.css);
+@import url(./header.css);
+@import url(./footer.css);
 
+*{
+  margin:.0;
+  padding:0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: smooth;
+}
 
+body{
+  width:100vw;
+  height:100vh;
+  background-color: var(--background-color);
+  }
