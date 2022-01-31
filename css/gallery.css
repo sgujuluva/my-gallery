@@ -1,0 +1,21 @@
+.gallery{
+    border:2px dashed red;
+}
+
+.image{
+    border:2px dashed orchid;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    }
+
+div > img{
+      border:2px solid black;
+      width:25vw;
+      height:30vh;
+    margin:15px 15px 40px 15px;
+  }
+
+article > div{
+border:10px solid black;
+}
