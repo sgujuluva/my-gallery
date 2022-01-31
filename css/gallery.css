@@ -1,12 +1,14 @@
 .gallery{
-    border:2px dashed red;
+  /*   border:2px dashed red; */
 }
 
 .image{
-    border:2px dashed orchid;
+  /*   border:2px dashed orchid; */
     display:flex;
     justify-content: center;
     align-items:center;
+    flex-direction: column;
+    position: relative;
     }
 
 div > img{
@@ -17,5 +19,5 @@ div > img{
   }
 
 article > div{
-border:10px solid black;
+border:1px solid black;
 }
