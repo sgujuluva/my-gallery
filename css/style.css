@@ -17,5 +17,5 @@ body{
   width:100vw;
   height:100vh;
   background-color: var(--background-color);
-  border:2px solid green;
+  border:10px solid green;
   }

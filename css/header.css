@@ -4,5 +4,6 @@ header{
     align-items: center;
     font-family: 'Quintessential', cursive;
     background-color: var(--header-color);
-    /* color:var(--header-font-color); */
+    color:darkgreen;
+   
 }
