@@ -1,6 +1,16 @@
-.text p{
-border:1px dashed red;
-font-family: 'Quintessential', cursive;
+.text{
+    background-color: var(--footer-color);
+    font-family: 'Quintessential', cursive;
 font-size: 2rem;
-background-color: var(--footer-color);
+}
+
+.text p{
+text-align: center;
+}
+
+.text ol{
+ /*    border:1px dashed red; */
+display: flex;
+justify-content:space-around;
+font-size: 1rem;
 }

@@ -5,20 +5,20 @@ article > div:first-child{
 }
 article > div:nth-child(2){
     position:absolute;
-    left:20%;
-    top:30%;
+    left:15%;
+    top:35%;
 }
 
 article > div:nth-child(3){
     position:absolute;
-    left:40%;
-    top:10%;
+    left:22%;
+    top:20%;
 } 
  
 
-/* article > div:last-child{
+article > div:last-child{
     position:absolute;
-    left:50%;
-    top:5%;
+    left:30%;
+    top:0.2%;
 } 
- */
+ 
