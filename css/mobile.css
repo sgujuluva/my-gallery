@@ -3,9 +3,7 @@
     body{
         background-color:peachpuff ;
     }  
-   /* img:hover {
-          background: yellow;
-        } */
+ 
         .gallery{
             width:100vw;
             height:100vh;
@@ -20,18 +18,18 @@
         transform: rotate(25deg);          
       }
       .pic2 img{
-        top:15rem;
-        left:5rem;
+        top:17rem;
+        left:7rem;
         transform: rotate(30deg);                
      }
      .pic3 img{
     
-        top:10rem;
+        top:12rem;
         left:7rem;
         transform: rotate(25deg);       
      }
      .pic4 img{
-         top:5rem;
+         top:4rem;
          left:9rem;
          transform: rotate(20deg);         
      }

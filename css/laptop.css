@@ -1,10 +1,37 @@
 /* laptop device */
 @media only screen and (min-width: 992px) {
-    body{
-        background-color:tomato ;
-    }
-  
-   img:hover {
-          background:lime;
-        }
+    body {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgrey;
+  }
+  .gallery {
+    width: 100vw;
+    height: 100vh;
+  }
+  .gallery img{
+    width: 30vw;   
+    height:50vh;               
+}
+
+  .pic1 img {
+    top: 15rem;
+    left: 5rem;
+    transform: rotate(25deg);
+  }
+  .pic2 img {
+    top: 10rem;
+    left: 10rem;
+    transform: rotate(30deg);
+  }
+  .pic3 img {
+    top: 8rem;
+    left: 18rem;
+    transform: rotate(25deg);
+  }
+  .pic4 img {
+    top: 5rem;
+    left: 25rem;
+    transform: rotate(20deg);
+  }
 }
