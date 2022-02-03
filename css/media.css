@@ -2,12 +2,39 @@
 @media only screen and (max-width:500px){
     body{
         background-color:peachpuff ;
-    }
-  
+    }  
    img:hover {
           background: yellow;
         }
-      
+        .gallery{
+            width:100vw;
+            height:100vh;
+        }
+      .gallery img{
+          width: 60vw;                  
+      }
+
+      .pic1 img{
+        top:25rem;   
+        left:3rem;   
+        transform: rotate(10deg);          
+      }
+      .pic2 img{
+        top:15rem;
+        left:5rem;
+        transform: rotate(10deg);                
+     }
+     .pic3 img{
+    
+        top:10rem;
+        left:7rem;
+        transform: rotate(20deg);       
+     }
+     .pic4 img{
+         top:5rem;
+         left:9rem;
+         transform: rotate(20deg);         
+     }
 }
 
 /* tablet device */
