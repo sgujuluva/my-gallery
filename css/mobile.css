@@ -1,11 +1,11 @@
 /* mobile devices */
-@media only screen and (max-width:500px){
+@media only screen and (max-width:600px){
     body{
         background-color:peachpuff ;
     }  
-   img:hover {
+   /* img:hover {
           background: yellow;
-        }
+        } */
         .gallery{
             width:100vw;
             height:100vh;
@@ -17,18 +17,18 @@
       .pic1 img{
         top:25rem;   
         left:3rem;   
-        transform: rotate(10deg);          
+        transform: rotate(25deg);          
       }
       .pic2 img{
         top:15rem;
         left:5rem;
-        transform: rotate(10deg);                
+        transform: rotate(30deg);                
      }
      .pic3 img{
     
         top:10rem;
         left:7rem;
-        transform: rotate(20deg);       
+        transform: rotate(25deg);       
      }
      .pic4 img{
          top:5rem;
@@ -37,25 +37,5 @@
      }
 }
 
-/* tablet device */
-@media only screen and (min-width: 600px) {
-    body{
-        background-color:cyan ;
-    }
-  
-   img:hover {
-          background:orchid;
-        }
-      
-}
 
-/* laptop device */
-@media only screen and (min-width: 992px) {
-    body{
-        background-color:tomato ;
-    }
-  
-   img:hover {
-          background:lime;
-        }
-}
+

@@ -1,0 +1,42 @@
+/* tablet device */
+@media only screen and (min-width: 600px) {
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    body{
+        width:100vw;
+        height:100vh;
+        background-color:lightblue ;
+    }
+    .gallery{
+        width:100vw;
+        height:100vh;
+        }
+/*    img:hover {
+          background:orchid;
+        } */
+        .pic1 img{
+            top:40rem;   
+            left:5rem;   
+            transform: rotate(25deg);          
+          }
+        .pic2 img{
+           
+           top:30rem;
+           left:10rem;
+           transform: rotate(30deg);                
+        }
+        .pic3 img{
+            
+           top:23rem;
+           left:18rem;
+           transform: rotate(25deg);       
+        }
+        .pic4 img{
+            top:14rem;
+            left:25rem;
+            transform: rotate(20deg);         
+        }
+}
