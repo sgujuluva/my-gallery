@@ -1,4 +1,5 @@
-@media only screen and (max-width:600px){
+/* mobile devices */
+@media only screen and (max-width:500px){
     body{
         background-color:peachpuff ;
     }
@@ -8,3 +9,17 @@
         }
       
 }
+
+/* tablet device */
+@media only screen and (min-width: 600px) {
+    body{
+        background-color:cyan ;
+    }
+  
+   img:hover {
+          background:orchid;
+        }
+      
+}
+
+/* laptop device */
